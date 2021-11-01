@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:test_project/features/presentation/new_pages/invite_a_friend_page.dart';
+import 'package:test_project/features/presentation/new_pages/statistics_page.dart';
 import 'package:test_project/features/presentation/pages/pinous/focus_on_your_lesson_easily_page.dart';
 import 'package:test_project/features/presentation/pages/pinous/home_page.dart';
 import 'package:test_project/features/presentation/pages/pinous/observe_yourself_page.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.blue),
       debugShowCheckedModeBanner: false,
-      home: ScrollAnimationsHomePage(),
+      home: InviteAFriendPage(),
     );
   }
 }
