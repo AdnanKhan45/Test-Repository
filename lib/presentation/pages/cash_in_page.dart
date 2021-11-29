@@ -130,7 +130,7 @@ class CalculatorOverlay extends StatelessWidget {
             addHorizontalSpace(5),
             calcButton(".", 80, 32, Colors.blueGrey.shade700.withOpacity(0.4)),
             addHorizontalSpace(5),
-            calcButton("=", 80, 32, Colors.blueGrey.shade700.withOpacity(0.7)),
+            calcButton("=", 80, 32, Colors.blueGrey.shade700.withOpacity(0.4)),
           ],
         ),
       ],
