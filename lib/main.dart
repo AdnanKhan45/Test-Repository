@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:khaata_app/presentation/pages/cash_in_page.dart';
 import 'package:khaata_app/presentation/pages/page_1.dart';
 import 'package:khaata_app/presentation/pages/page_2.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Khaata App",
-      home: Page2(),
+      home: CashInPage(),
     );
   }
 }
